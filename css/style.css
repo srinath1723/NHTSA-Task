@@ -1,0 +1,54 @@
+/* Style for the card */
+.card {
+    background-color: transparent; /* Set background color to transparent */
+    border: 3px solid #dd1616; /* Set border color and width */
+    border-radius: 50px; /* Add border radius for rounded corners */
+    padding: 20px; /* Add padding inside the card */
+    background-color: rgba(113, 113, 251, 0.379); /* Set background color with transparency */
+}
+
+/* Style for the card title */
+.card-title {
+    background-color: transparent; /* Set background color to transparent */
+    font-weight: bold; /* Make the text bold */
+    text-align: center; /* Align text to the center */
+    color: #050309cf; /* Set text color */
+    font-size: 25px; /* Set font size */
+    border: 2px solid #dad8d8; /* Set border color and width */
+    border-radius: 50px; /* Add border radius for rounded corners */
+}
+
+/* Style for the card body */
+.card-body {
+    padding: 20px; /* Add padding inside the card body */
+    font-weight: bold; /* Make the text bold */
+    background-color: transparent; /* Set background color to transparent */
+    color: #0e0e0fbd; /* Set text color */
+    font-size: 18px; /* Set font size */
+    border: 2px solid #939090; /* Set border color and width */
+    border-radius: 50px; /* Add border radius for rounded corners */
+}
+
+/* Style for the root container */
+.root {
+    position: fixed; /* Position the root container */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden; /* Hide overflow content */
+    z-index: -1; /* Set z-index to place it behind other elements */
+}
+
+/* Style for the background video */
+#bgVideo {
+    position: absolute; /* Position the background video */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    min-width: 100%; /* Ensure video covers the entire viewport */
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%); /* Center the video */
+    filter: brightness(100%); /* Adjust brightness of the video */
+}
